@@ -3376,3 +3376,26 @@ ul.blog_pagination li a:hover {
     width: auto !important;
     height: 50px !important;
 }
+/*alert*/
+
+.custom-alert {
+  position: fixed;
+  top: 400px;
+  margin-right: auto;
+  padding: 16px 24px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 35px;
+  z-index: 9999;
+  display: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.custom-alert.success {
+  background-color: #27ae60;
+}
+
+.custom-alert.error {
+  background-color: #c0392b;
+}
